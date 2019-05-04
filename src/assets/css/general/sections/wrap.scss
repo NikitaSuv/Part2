@@ -1,0 +1,24 @@
+
+&.wrap {
+    background-color: #ffffff;
+    .section-wrapper {
+        text-align: center;
+        padding-top: 64px;
+        padding-bottom: 64px;
+     
+    
+        img {
+            display: inline-flex;
+            padding: 55px;
+            opacity: 0.5;
+            max-width: 100%;
+            height: auto;
+            @include general-transition;
+            cursor: pointer;
+    
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

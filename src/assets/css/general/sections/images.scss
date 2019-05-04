@@ -1,0 +1,53 @@
+&.images {
+
+    background-color: #f5f5f5;
+
+    .section-content {
+        padding-top: 46px;
+        padding-bottom: 46px;
+
+        .text {
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: #8e8e8e;
+            }
+        }
+    }
+
+    .section-bg-two {
+        .wrapper-img {
+            display: flex;
+        }
+
+        .wrap {
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            left: 45%;
+            top: 45%;
+            visibility: hidden;
+        }
+
+        .icon {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .icon:hover {
+            opacity: 0.85;
+            cursor: pointer;
+            transition: opacity 1s ease-in-out;
+
+        }
+
+    }
+}

@@ -1,0 +1,128 @@
+@media only screen and (min-width : 320px) and (max-width : 568px) {
+    .section.slaider .section-bg-slaider .section-bg-content .text {
+        font-family: Montserrat;
+        font-size: 15px;
+
+    }
+
+    &.footer {
+        .section-bg-footer {
+            .section-content {
+                .name {
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    display: inline;
+                    line-height: 20px;
+                }
+
+                .name-adres {
+                    display: none;
+                }
+
+                ul.list-2 {
+                    display: none;
+                }
+
+                ul.list-1 {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &.statistic {
+        .section-bg {
+
+            .icon {
+
+                text-align: center;
+            }
+        }
+
+        .section-bg-hero {
+            .bar {
+                padding-left: 0px;
+            }
+
+
+            .name {
+                padding-left: 30px;
+            }
+
+            .text {
+                padding-left: 30px;
+            }
+
+            .element {
+                margin-left: 39px;
+            }
+
+
+        }
+    }
+}
+
+@include media-breakpoint-up(xs) {
+
+    &.statistic {
+        .section-bg {
+
+            .icon {
+                padding-bottom: 10px;
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-only(md) {
+    &.footer {
+        .section-bg-footer {
+            .section-content {
+                .name {
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    display: inline;
+                    line-height: 20px;
+                }
+
+                .name-adres {
+                    display: none;
+                }
+
+                ul.list-2 {
+                    display: none;
+                }
+
+                ul.list-1 {
+                    display: none;
+                }
+            }
+        }
+    }
+    .section.subscribe .section-bg-form .section-form input {
+       
+        margin-right: 20px;
+    
+       
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .section.subscribe .section-bg-form .section-form input {
+        margin-right: 20px;
+        width: 100%;
+    }
+    .section.subscribe .section-bg-form .section-form textarea {
+       
+        width: 100%;
+      
+    }
+
+  
+
+    .navbar-light .navbar-toggler {
+        border: 0px;
+
+    }
+}

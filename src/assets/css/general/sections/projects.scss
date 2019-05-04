@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+&.projects {
+    background-color: #10c9c3;
+
+    .section-bg {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            .text {
+                font-family: Montserrat;
+                font-size: 17px;
+                line-height: 30px;
+                text-transform: uppercase;
+                color: #fff;
+                padding-left: 27px;
+            }
+
+            .name {
+                color: #fff;
+                font-family: Montserrat;
+                font-size: 15px;
+                line-height: 30px;
+                text-transform: uppercase;
+            }
+        }
+
+
+    }
+}
